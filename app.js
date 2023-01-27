@@ -69,5 +69,5 @@ bot.on("guildMemberAdd", async member => {
         }
     }
 })
-//Token need in token.json
-bot.login(process.env.TOKEN);
+//put the token in here
+bot.login("");
