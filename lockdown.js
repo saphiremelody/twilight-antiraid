@@ -5,7 +5,7 @@ const discord = require ('discord.js')
 
 module.exports.run = async (bot, message, args) => {
                
-      if (guilds.includes(message.guild.id)) {
+      if (premium.guilds.includes(message.guild.id)) {
         let lockPermErr = new Discord.MessageEmbed()
         .setTitle("**User Permission Error!**")
         .setDescription("**Sorry, you don't have permissions to use this! ❌**")
@@ -41,7 +41,7 @@ module.exports.run = async (bot, message, args) => {
             return message.channel.send(lockEmbed2)
         }
 
-      } else if (users.includes(message.author.id)) {
+      } else if (premium.users.includes(message.author.id)) {
         let lockPermErr = new Discord.MessageEmbed()
         .setTitle("**User Permission Error!**")
         .setDescription("**Sorry, you don't have permissions to use this! ❌**")
