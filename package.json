@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node app.js"
   },
-  "author": "DerpysTown#1416",
+  "author": "Saphire melody#8826",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.1"
